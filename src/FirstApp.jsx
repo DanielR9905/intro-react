@@ -1,16 +1,11 @@
 import React from 'react'
 
-const newMesagge = {
-  message: 'Hola mundo',
-  name: 'Daniel'
-};
-
-export default function FirstApp( message, name) {
+export default function FirstApp( {title, subtitle} ) {
 
   return (
     <>
-    <h1>{ newMesagge.name }</h1>
-    <p>{newMesagge.message}</p>
+    <h1>{title}</h1>
+    <p>{subtitle}</p>
     </>
   )
 }
