@@ -1,4 +1,3 @@
-import React from 'react'
 import PropTypes from 'prop-types'
 
 export default function FirstApp( {title, subtitle , name} ) {
@@ -20,4 +19,5 @@ FirstApp.defaultProps = {
 FirstApp.propTypes = {
  title: PropTypes.string.isRequired,
  subtitle: PropTypes.string,
+ name: PropTypes.string,
 }
